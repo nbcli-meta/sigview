@@ -2,7 +2,7 @@
 	"name" : "sigview-lc-av.maxpat",
 	"version" : 1,
 	"creationdate" : 3700103552,
-	"modificationdate" : 3700709798,
+	"modificationdate" : 3700769841,
 	"viewrect" : [ 25.0, 81.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -18,10 +18,13 @@
 
 		}
 ,
+		"media" : 		{
+
+		}
+,
 		"code" : 		{
 			"th.gl.commandline.js" : 			{
-				"kind" : "javascript",
-				"local" : 1
+				"kind" : "javascript"
 			}
 
 		}
