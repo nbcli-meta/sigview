@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1558.0, 79.0, 178.0, 333.0 ],
+		"rect" : [ 1558.0, 79.0, 178.0, 303.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 401.5, 22.0, 65.0, 23.0 ],
+					"text" : "route anim"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-31",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 401.5, 53.376923076923049, 76.0, 23.0 ],
+					"text" : "jit.anim.node"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 572.0, 170.0, 56.0, 23.0 ],
+					"text" : "jit.gl.light"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-32",
 					"maxclass" : "jit.pwindow",
 					"numinlets" : 1,
@@ -47,7 +83,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 405.0, 260.5, 80.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.0, 251.288687782805368, 67.0, 57.08823529411768 ]
+					"presentation_rect" : [ 97.0, 227.288687782805368, 67.0, 57.08823529411768 ]
 				}
 
 			}
@@ -402,10 +438,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -451,10 +487,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -482,8 +518,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -539,7 +575,7 @@
 ,
 					"patching_rect" : [ 136.0, 248.0, 27.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.0, 196.365893665158353, 33.0, 23.0 ],
+					"presentation_rect" : [ 97.0, 172.365893665158353, 33.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"accentcolor" : [ 0.164705882352941, 0.172549019607843, 0.180392156862745, 1.0 ],
 						"bgcolor" : [ 0.12156862745098, 0.125490196078431, 0.129411764705882, 1.0 ],
@@ -605,7 +641,6 @@
 						"style" : "",
 						"subpatcher_template" : "midnight",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-12",
@@ -947,10 +982,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -996,10 +1031,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1027,8 +1062,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1084,7 +1119,7 @@
 ,
 					"patching_rect" : [ 119.0, 278.0, 100.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 97.0, 221.365893665158353, 67.0, 23.0 ],
+					"presentation_rect" : [ 97.0, 197.365893665158353, 67.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"accentcolor" : [ 0.164705882352941, 0.172549019607843, 0.180392156862745, 1.0 ],
 						"bgcolor" : [ 0.12156862745098, 0.125490196078431, 0.129411764705882, 1.0 ],
@@ -1529,10 +1564,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1578,10 +1613,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1609,8 +1644,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1666,7 +1701,7 @@
 ,
 					"patching_rect" : [ 555.0, 251.0, 32.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.0, 196.365893665158353, 32.0, 23.0 ],
+					"presentation_rect" : [ 132.0, 172.365893665158353, 32.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"accentcolor" : [ 0.164705882352941, 0.172549019607843, 0.180392156862745, 1.0 ],
 						"bgcolor" : [ 0.12156862745098, 0.125490196078431, 0.129411764705882, 1.0 ],
@@ -1860,10 +1895,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1909,10 +1944,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -1940,8 +1975,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2189,10 +2224,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2238,10 +2273,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2269,8 +2304,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2518,10 +2553,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2567,10 +2602,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2598,8 +2633,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2847,10 +2882,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -2896,10 +2931,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -2927,8 +2962,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -3189,7 +3224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 464.0, 58.376923076923049, 80.0, 13.0 ],
+					"patching_rect" : [ 489.0, 58.376923076923049, 80.0, 13.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 11.0, 138.189423076923049, 153.0, 23.0 ]
 				}
@@ -3748,10 +3783,10 @@
 , 											{
 												"name" : "dvnt2",
 												"default" : 												{
-													"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3797,10 +3832,10 @@
 , 											{
 												"name" : "myrPattr",
 												"default" : 												{
-													"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-													"fontname" : [ "Arial" ],
 													"fontface" : [ 0 ],
-													"fontsize" : [ 12.0 ]
+													"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -3828,8 +3863,8 @@
 												"name" : "myrSubpatch",
 												"default" : 												{
 													"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 12.0 ]
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -4307,10 +4342,10 @@
 , 											{
 												"name" : "dvnt2",
 												"default" : 												{
-													"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4356,10 +4391,10 @@
 , 											{
 												"name" : "myrPattr",
 												"default" : 												{
-													"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-													"fontname" : [ "Arial" ],
 													"fontface" : [ 0 ],
-													"fontsize" : [ 12.0 ]
+													"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -4387,8 +4422,8 @@
 												"name" : "myrSubpatch",
 												"default" : 												{
 													"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 12.0 ]
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -4574,10 +4609,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -4623,10 +4658,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -4654,8 +4689,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -5309,10 +5344,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -5358,10 +5393,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -5389,8 +5424,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -5476,25 +5511,7 @@
 					"outlettype" : [ "jit_matrix", "" ],
 					"patching_rect" : [ 579.0, 43.0, 80.0, 60.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 190.189423076923049, 79.0, 77.176470588235304 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.12156862745098, 0.125490196078431, 0.129411764705882, 1.0 ],
-					"fontface" : 1,
-					"fontname" : "Lato Regular",
-					"fontsize" : 14.0,
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 422.0, 145.0, 106.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 163.189423076923049, 81.5, 23.0 ],
-					"text" : "Light",
-					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+					"presentation_rect" : [ 11.0, 166.189423076923049, 79.0, 77.176470588235304 ]
 				}
 
 			}
@@ -5544,9 +5561,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 429.0, 8.0, 80.0, 37.0 ],
+					"patching_rect" : [ 482.0, 8.0, 80.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 271.376923076923049, 79.0, 37.0 ]
+					"presentation_rect" : [ 11.0, 247.376923076923049, 79.0, 37.0 ]
 				}
 
 			}
@@ -5602,11 +5619,11 @@
 				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
-					"numinlets" : 4,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 96.0, 38.0, 106.0, 23.0 ],
-					"text" : "route pix cam light"
+					"numinlets" : 5,
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
+					"patching_rect" : [ 96.0, 38.0, 146.0, 23.0 ],
+					"text" : "route pix cam light1 light2"
 				}
 
 			}
@@ -5777,7 +5794,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 74.5, 595.0, 50.0, 23.0 ],
-									"text" : "0."
+									"text" : "1."
 								}
 
 							}
@@ -5836,8 +5853,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 184.0, 743.0, 759.0, 23.0 ],
-									"text" : "jit.gl.gridshape pix @poly_mode 1 1 @shape plane @color 0.7 0.7 0.7 1 @depth_enable 1 @lighting_enable 1 @blend_enable 1 @matrixoutput 1"
+									"patching_rect" : [ 184.0, 743.0, 361.0, 23.0 ],
+									"text" : "jit.gl.gridshape pix @poly_mode 1 1 @shape plane @matrixoutput 1"
 								}
 
 							}
@@ -5848,8 +5865,8 @@
 									"numinlets" : 9,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 120.0, 938.0, 456.0, 23.0 ],
-									"text" : "jit.gl.mesh pix @depth_enable 1 @lighting_enable 1 @animmode local @auto_colors 1"
+									"patching_rect" : [ 120.0, 938.0, 372.0, 23.0 ],
+									"text" : "jit.gl.mesh pix @depth_enable 1 @lighting_enable 1 @animmode local"
 								}
 
 							}
@@ -6143,8 +6160,8 @@
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
-									"numoutlets" : 2,
-									"outlettype" : [ "jit_matrix", "jit_gl_texture" ],
+									"numoutlets" : 1,
+									"outlettype" : [ "jit_matrix" ],
 									"patcher" : 									{
 										"fileversion" : 1,
 										"appversion" : 										{
@@ -6186,6 +6203,18 @@
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
+													"id" : "obj-47",
+													"maxclass" : "message",
+													"numinlets" : 2,
+													"numoutlets" : 1,
+													"outlettype" : [ "" ],
+													"patching_rect" : [ 449.0, 291.0, 29.5, 23.0 ],
+													"text" : "1"
+												}
+
+											}
+, 											{
+												"box" : 												{
 													"id" : "obj-37",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
@@ -6203,7 +6232,7 @@
 													"numoutlets" : 2,
 													"outlettype" : [ "", "bang" ],
 													"patching_rect" : [ 514.0, 282.0, 40.0, 23.0 ],
-													"text" : "line"
+													"text" : "line 0."
 												}
 
 											}
@@ -6227,41 +6256,6 @@
 													"numoutlets" : 0,
 													"patching_rect" : [ 165.5, 128.0, 43.0, 23.0 ],
 													"text" : "s basis"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-29",
-													"maxclass" : "jit.pwindow",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "jit_matrix", "" ],
-													"patching_rect" : [ 263.0, 681.0, 82.0, 77.5 ]
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"id" : "obj-27",
-													"maxclass" : "newobj",
-													"numinlets" : 1,
-													"numoutlets" : 2,
-													"outlettype" : [ "jit_gl_texture", "" ],
-													"patching_rect" : [ 225.0, 647.5, 124.0, 23.0 ],
-													"text" : "jit.gl.texture @adapt 0"
-												}
-
-											}
-, 											{
-												"box" : 												{
-													"comment" : "",
-													"id" : "obj-26",
-													"index" : 2,
-													"maxclass" : "outlet",
-													"numinlets" : 1,
-													"numoutlets" : 0,
-													"patching_rect" : [ 225.0, 681.0, 30.0, 30.0 ]
 												}
 
 											}
@@ -7203,22 +7197,6 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-26", 0 ],
-													"order" : 1,
-													"source" : [ "obj-27", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
-													"destination" : [ "obj-29", 0 ],
-													"order" : 0,
-													"source" : [ "obj-27", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-1", 0 ],
 													"midpoints" : [ 88.5, 673.25, 187.5, 673.25 ],
 													"order" : 0,
@@ -7270,14 +7248,16 @@
 												"patchline" : 												{
 													"destination" : [ "obj-36", 0 ],
 													"midpoints" : [ 449.5, 279.0, 523.5, 279.0 ],
+													"order" : 0,
 													"source" : [ "obj-35", 0 ]
 												}
 
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-7", 0 ],
-													"source" : [ "obj-35", 1 ]
+													"destination" : [ "obj-47", 0 ],
+													"order" : 1,
+													"source" : [ "obj-35", 0 ]
 												}
 
 											}
@@ -7292,6 +7272,13 @@
 												"patchline" : 												{
 													"destination" : [ "obj-5", 0 ],
 													"source" : [ "obj-4", 0 ]
+												}
+
+											}
+, 											{
+												"patchline" : 												{
+													"destination" : [ "obj-7", 0 ],
+													"source" : [ "obj-47", 0 ]
 												}
 
 											}
@@ -7565,17 +7552,7 @@
 											}
 , 											{
 												"patchline" : 												{
-													"destination" : [ "obj-27", 0 ],
-													"midpoints" : [ 88.5, 644.5, 234.5, 644.5 ],
-													"order" : 0,
-													"source" : [ "obj-94", 0 ]
-												}
-
-											}
-, 											{
-												"patchline" : 												{
 													"destination" : [ "obj-28", 0 ],
-													"order" : 1,
 													"source" : [ "obj-94", 0 ]
 												}
 
@@ -7660,10 +7637,10 @@
 , 											{
 												"name" : "dvnt2",
 												"default" : 												{
-													"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-													"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -7709,10 +7686,10 @@
 , 											{
 												"name" : "myrPattr",
 												"default" : 												{
-													"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-													"fontname" : [ "Arial" ],
 													"fontface" : [ 0 ],
-													"fontsize" : [ 12.0 ]
+													"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -7740,8 +7717,8 @@
 												"name" : "myrSubpatch",
 												"default" : 												{
 													"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-													"fontname" : [ "Arial" ],
-													"fontsize" : [ 12.0 ]
+													"fontsize" : [ 12.0 ],
+													"fontname" : [ "Arial" ]
 												}
 ,
 												"parentstyle" : "",
@@ -8056,8 +8033,8 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "jit_matrix", "" ],
-									"patching_rect" : [ 152.0, 704.0, 759.0, 23.0 ],
-									"text" : "jit.gl.gridshape pix @poly_mode 1 1 @shape plane @color 0.7 0.7 0.7 1 @depth_enable 1 @lighting_enable 1 @blend_enable 1 @matrixoutput 1"
+									"patching_rect" : [ 152.0, 704.0, 361.0, 23.0 ],
+									"text" : "jit.gl.gridshape pix @poly_mode 1 1 @shape plane @matrixoutput 1"
 								}
 
 							}
@@ -8351,54 +8328,6 @@
 							}
 , 							{
 								"box" : 								{
-									"attr" : "draw_mode",
-									"id" : "obj-60",
-									"maxclass" : "attrui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 786.0, 899.0, 201.5, 23.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"attr" : "draw_mode",
-									"id" : "obj-61",
-									"maxclass" : "attrui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.0, 899.0, 205.0, 23.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"attr" : "auto_colors",
-									"id" : "obj-65",
-									"maxclass" : "attrui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.0, 848.0, 150.0, 23.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"attr" : "color_mode",
-									"id" : "obj-66",
-									"maxclass" : "attrui",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 287.0, 873.0, 205.0, 23.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"attr" : "enable",
 									"id" : "obj-70",
 									"maxclass" : "attrui",
@@ -8406,6 +8335,18 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 794.5, 374.0, 150.0, 23.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"attr" : "shape",
+									"id" : "obj-60",
+									"maxclass" : "attrui",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 152.0, 674.0, 225.0, 23.0 ]
 								}
 
 							}
@@ -9082,15 +9023,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-30", 0 ],
+									"destination" : [ "obj-15", 0 ],
 									"source" : [ "obj-60", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-58", 0 ],
-									"source" : [ "obj-61", 0 ]
 								}
 
 							}
@@ -9137,20 +9071,6 @@
 								"patchline" : 								{
 									"destination" : [ "obj-67", 0 ],
 									"source" : [ "obj-64", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-58", 0 ],
-									"source" : [ "obj-65", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-58", 0 ],
-									"source" : [ "obj-66", 0 ]
 								}
 
 							}
@@ -9301,10 +9221,10 @@
 , 							{
 								"name" : "dvnt2",
 								"default" : 								{
-									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-									"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -9350,10 +9270,10 @@
 , 							{
 								"name" : "myrPattr",
 								"default" : 								{
-									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-									"fontname" : [ "Arial" ],
 									"fontface" : [ 0 ],
-									"fontsize" : [ 12.0 ]
+									"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -9381,8 +9301,8 @@
 								"name" : "myrSubpatch",
 								"default" : 								{
 									"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-									"fontname" : [ "Arial" ],
-									"fontsize" : [ 12.0 ]
+									"fontsize" : [ 12.0 ],
+									"fontname" : [ "Arial" ]
 								}
 ,
 								"parentstyle" : "",
@@ -9578,21 +9498,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"attr" : "enable",
-					"id" : "obj-21",
-					"maxclass" : "attrui",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 544.0, 170.0, 150.0, 23.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 81.0, 163.189423076923049, 83.0, 23.0 ],
-					"text_width" : 61.0
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -9626,6 +9531,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-18", 0 ],
 					"source" : [ "obj-14", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"order" : 0,
+					"source" : [ "obj-14", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"order" : 1,
+					"source" : [ "obj-14", 3 ]
 				}
 
 			}
@@ -9687,8 +9608,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
-					"source" : [ "obj-21", 0 ]
+					"destination" : [ "obj-31", 0 ],
+					"source" : [ "obj-24", 0 ]
 				}
 
 			}
@@ -9735,6 +9656,13 @@
 					"destination" : [ "obj-8", 0 ],
 					"order" : 1,
 					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-31", 0 ]
 				}
 
 			}
@@ -10068,10 +9996,10 @@
 , 			{
 				"name" : "dvnt2",
 				"default" : 				{
-					"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"color" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"elementcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -10117,10 +10045,10 @@
 , 			{
 				"name" : "myrPattr",
 				"default" : 				{
-					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
-					"fontname" : [ "Arial" ],
 					"fontface" : [ 0 ],
-					"fontsize" : [ 12.0 ]
+					"accentcolor" : [ 0.945098, 0.913725, 0.407843, 1.0 ],
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
@@ -10148,8 +10076,8 @@
 				"name" : "myrSubpatch",
 				"default" : 				{
 					"accentcolor" : [ 0.082353, 0.431373, 0.411765, 1.0 ],
-					"fontname" : [ "Arial" ],
-					"fontsize" : [ 12.0 ]
+					"fontsize" : [ 12.0 ],
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
