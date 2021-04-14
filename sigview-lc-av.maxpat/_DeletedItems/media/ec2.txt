@@ -1,0 +1,11 @@
+// Grain Rate
+1 16 // modulation control
+
+// Asynchronicity
+2 17 // modulation control
+
+// Intermittency
+3 18 // modulation control
+
+// Streams
+4 19 // modulation control
