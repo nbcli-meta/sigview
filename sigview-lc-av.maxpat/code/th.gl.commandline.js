@@ -46,7 +46,7 @@ function init(){
 
 function loadbang(){
 	init();
-	post("th.gl.commandline | @magfoto edit 1.1 | OP-Z | added lop-z display interface, single midi note play, note generator also added.")
+	post("th.gl.commandline | @magfoto edit 1.2 | gl context change")
 	// post("th.gl.commandline initialized | www.timohoogland.com", "\n");
 }//loadbang()
 
