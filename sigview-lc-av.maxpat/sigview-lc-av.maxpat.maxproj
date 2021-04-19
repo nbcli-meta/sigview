@@ -2,7 +2,7 @@
 	"name" : "sigview-lc-av.maxpat",
 	"version" : 1,
 	"creationdate" : 3700103552,
-	"modificationdate" : 3701345400,
+	"modificationdate" : 3701624162,
 	"viewrect" : [ 25.0, 81.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,7 +16,22 @@
 				"toplevel" : 1
 			}
 ,
+			"scount.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"sclock.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"gb.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"live_timer.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

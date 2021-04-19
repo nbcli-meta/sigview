@@ -428,8 +428,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 405.0, 104.0, 91.0, 22.0 ],
-					"text" : "patcherargs ctx"
+					"patching_rect" : [ 405.0, 104.0, 97.0, 22.0 ],
+					"text" : "patcherargs sigv"
 				}
 
 			}
@@ -2075,7 +2075,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-76", 0 ],
-					"midpoints" : [ 486.5, 138.0, 144.5, 138.0 ],
+					"midpoints" : [ 492.5, 138.0, 144.5, 138.0 ],
 					"source" : [ "obj-83", 1 ]
 				}
 

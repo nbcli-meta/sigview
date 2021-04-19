@@ -46,7 +46,7 @@ function init(){
 
 function loadbang(){
 	init();
-	post("th.gl.commandline | @magfoto edit 1.3 | added live.step")
+	post("th.gl.commandline | @magfoto edit 1.4 | removed launch errors by amending context name to sgv from ctx in th.gl.commandline")
 	// post("th.gl.commandline initialized | www.timohoogland.com", "\n");
 }//loadbang()
 
