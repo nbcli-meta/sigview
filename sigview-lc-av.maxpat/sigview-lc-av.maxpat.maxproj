@@ -2,7 +2,7 @@
 	"name" : "sigview-lc-av.maxpat",
 	"version" : 1,
 	"creationdate" : 3700103552,
-	"modificationdate" : 3701624162,
+	"modificationdate" : 3702006988,
 	"viewrect" : [ 25.0, 81.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
