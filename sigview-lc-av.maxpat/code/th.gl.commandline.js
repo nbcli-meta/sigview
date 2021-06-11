@@ -46,7 +46,7 @@ function init(){
 
 function loadbang(){
 	init();
-	post("th.gl.commandline | @magfoto edit 1.5 | updated EC2 mapping")
+	post("th.gl.commandline | @magfoto edit 1.6 | added patch transparency gui")
 	// post("th.gl.commandline initialized | www.timohoogland.com", "\n");
 }//loadbang()
 
