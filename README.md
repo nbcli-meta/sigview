@@ -3,15 +3,17 @@ Real-Time Signal Visualization Research
 
 ---
 
-### sigv-hydra (current)
+### sigv-gl (current)
 
-After exploring an exhaustive list of live coding languages, environments, and technologies, in addition to preferring the unique Orca and Gibberwocky environments, I have also been significantly drawn to Hydra.  Its syntax, flow, and operator logic seems to attract me in ways that made me want to find ways in which I can have it's language integrate with sigview's route objects.
-
-
-
-### sigv-gl
+*Updated:* sigv-gl made current as prototype potential for comprehensives project.  Added new systems objects: clifford and lorenz attractors. Added shell object for MacOS terminal access. 
 
 Working with the identical logic of route objects, coding using the Gibberwocky Max package.  The addition of jit.gl.sketch complements my research initiative to explore various approaches to writing glsl (or pseudo glsl) code, visually.  sigv then now supports the idea of composing with glsl through the the jit.gl.pix/jit.gl.slab and jit.gl.sketch objects.
+
+
+
+### sigv-hydra
+
+After exploring an exhaustive list of live coding languages, environments, and technologies, in addition to preferring the unique Orca and Gibberwocky environments, I have also been significantly drawn to Hydra.  Its syntax, flow, and operator logic seems to attract me in ways that made me want to find ways in which I can have it's language integrate with sigview's route objects.
 
 
 
