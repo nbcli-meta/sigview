@@ -5,7 +5,32 @@ Real-Time Signal Visualization Research
 
 ### sigv-gl (current)
 
-*Updated:* sigv-gl made current as prototype potential for comprehensives project.  Added new systems objects: clifford and lorenz attractors. Added shell object for MacOS terminal access. 
+*Updated:* removed clifford attractor due to a code conflict, added default start code:
+
+```js
+// initialize SIGV messageboard
+s = message('sigv')
+
+// set camera position
+s.cam.position('0 0 4') // peak signal specs will be seen
+
+// Lorenz Attractor
+l = s.lorenz
+l.sample() // sample initial parameters and display
+l.activate(1) // activate lorenz attractor by connecting [wrld], begins cycle metro
+
+// Attractor mesh
+m = l.mesh
+m.scale(0.5)
+m.rotatexyz('0 0 -57')
+m.draw_mode('points')
+m.point_size.seq([.25,1,.5,.75],Euclid(1,2))
+
+// Initial set parameters
+l('12. 28. 2.667 0.0007')
+```
+
+
 
 Working with the identical logic of route objects, coding using the Gibberwocky Max package.  The addition of jit.gl.sketch complements my research initiative to explore various approaches to writing glsl (or pseudo glsl) code, visually.  sigv then now supports the idea of composing with glsl through the the jit.gl.pix/jit.gl.slab and jit.gl.sketch objects.
 
