@@ -3,7 +3,15 @@ Real-Time Signal Visualization Research
 
 ---
 
-### sigv-gl (current)
+### sigv.js (current)
+
+Removing all engines tested for Gibberwocky and gl.commandline languages, and opted for using native Max and Javascript. Added textfield object to enter commands, with an added Max js object referencing sigv.js where coding can occurr as well as the textfield.  Compiling of sigv.js happens on save, for example when using Atom as IDE.  ```js open``` entered into the textfield launches sigv.js in Atom.
+
+At this stage of the research, Orca remains the preferred sequencer, and as such, the OSC module has been activated to communicate with Orca via port 7777.  ```sigx``` and ```sigy``` have a new subroute ```div``` to specify a divisor (default set to 0.1).  Orca sends values 0 thru 36, so ```div``` can be used to amend this scale.
+
+
+
+### sigv-gl
 
 *Updated:* removed clifford attractor due to a code conflict, added default start code:
 
