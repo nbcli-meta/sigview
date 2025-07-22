@@ -1,6 +1,9 @@
 # sigview
 Real-Time Signal Visualization Research
 
+[![DOI](https://zenodo.org/badge/354954050.svg)](https://doi.org/10.5281/zenodo.16340297)
+
+
 ---
 
 ### sigv.js (current)
